@@ -1,19 +1,32 @@
 .promo{
     width: 100%;
     position: relative;
+    padding-top: 415px;
+    padding-bottom: 41px;
     &__subtitle{
-        margin-top: 415px;
+        /* margin-top: 415px; */
         font-size: 18px;
         line-height: 150%;
         text-transform: uppercase;
     }
     &__title{
+        position: relative;
         font-family: 'Random Grotesque Standard Semibold StandardSemibold';
         font-size: 81px;
         line-height: 100%;
         letter-spacing: 0.05em;
         span{
             font-family: 'Random Grotesque Standard Semibold StandardSemiboldItalic';
+        }
+        &::after{
+            content: '';
+            position: absolute;
+            width: 352px;
+            height: 352px;
+            top: 0;
+            left: -200px;
+            background: rgba(5, 107, 110, 0.25);
+            filter: blur(83.8095px);
         }
     }
     &__img{
