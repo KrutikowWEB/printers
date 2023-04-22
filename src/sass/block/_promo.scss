@@ -1,0 +1,37 @@
+.promo{
+    width: 100%;
+    position: relative;
+    &__subtitle{
+        margin-top: 415px;
+        font-size: 18px;
+        line-height: 150%;
+        text-transform: uppercase;
+    }
+    &__title{
+        font-family: 'Random Grotesque Standard Semibold StandardSemibold';
+        font-size: 81px;
+        line-height: 100%;
+        letter-spacing: 0.05em;
+        span{
+            font-family: 'Random Grotesque Standard Semibold StandardSemiboldItalic';
+        }
+    }
+    &__img{
+        position: absolute;
+        &_main{
+            top: -214px;
+            left: 160px;
+            z-index: 2;
+        }
+        &_submain{
+            top: -243px;
+            right: 0;
+            z-index: 1;
+        }
+    }
+    &__btn{
+        display: block;
+        margin: 0 auto;
+        margin-top: 63px;
+    }
+}

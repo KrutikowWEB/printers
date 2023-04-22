@@ -1,0 +1,62 @@
+.menu{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    &__logo{
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        &_name{
+            font-size: 18px;
+            line-height: 150%;
+            transition: all .2s;
+        }
+        &:hover{
+            text-decoration: none;
+            .menu__logo_name{
+                color: $main-color;
+            }
+        }
+    }
+    &__list{
+        padding: 18px 27px;
+        display: flex;
+        gap: 36px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        list-style-type: none;
+        
+    }
+    &__link{
+        font-size: 15px;
+        line-height: 18px;
+        letter-spacing: .04em;
+        transition: all .2s;
+        &:hover{
+            text-decoration: none;
+            color: $main-color;
+        }
+    }
+    &__call{
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        &_deskr{
+            font-size: 15px;
+            line-height: 18px;
+        }
+        &_img{
+            position: relative;
+            &::after{
+                content: '';
+                position: absolute;
+                top: -50%;
+                left: -50%;
+                width: 63px;
+                height: 59.94px;
+                background: rgba(5, 107, 110, 0.35);
+                filter: blur(15px);
+            }
+        }
+    }
+}
