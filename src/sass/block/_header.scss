@@ -27,6 +27,7 @@
         list-style-type: none;
         &_footer{
             border: none;
+            padding-top: 14px;
         }
     }
     &__link{
@@ -65,5 +66,45 @@
                 filter: blur(15px);
             }
         }
+    }
+    &_footer{
+        align-items: flex-start;
+    }
+    &__social{
+        display: flex;
+        flex-direction: column;
+        margin-top: 14px;
+        gap: 18px;
+        &_info{
+            font-size: 18px;
+        }
+        &_icons{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        &_icon{
+            &:hover{
+                .social__icon{
+                    fill: $main-color;
+                }
+            }
+        }
+    }
+    &__left{
+        width: 223px;
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+        &_deskr{
+            font-size: 15px;
+            line-height: 18px;
+        }
+    }
+}
+
+.social{
+    &__icon{
+        transition: all .1s;
     }
 }
