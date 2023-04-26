@@ -4,4 +4,8 @@
     font-size: 63px;
     line-height: 85px;
     letter-spacing: 0.05em;
+    @media (max-width:576px){
+        font-size: 27px;
+        line-height: 32px;
+    }
 }
