@@ -23,7 +23,7 @@ window.addEventListener('DOMContentLoaded', () => {
   })
 })
 
-/* window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('DOMContentLoaded', () => {
   const menu = document.querySelector('.menu__list_footer'),
   menuItem = document.querySelectorAll('.menu__item_footer'),
   hamburger = document.querySelector('.hamburger_footer');
@@ -39,4 +39,4 @@ window.addEventListener('DOMContentLoaded', () => {
           menu.classList.toggle('menu__list_active');
       })
   })
-}) */
+})
