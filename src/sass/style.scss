@@ -21,7 +21,9 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 html, body{
     height: 100%;
     line-height: 1;
-    object-fit: cover;
+    img{
+        object-fit: cover;
+    }
 }
 
 .wrapper{
@@ -51,8 +53,5 @@ html, body{
 @import 'block/offer';
 @import 'block/contact';
 @import 'block/footer';
-
-@import 'block/popap';
-@import 'block/accordion';
 
 @import 'base/media';

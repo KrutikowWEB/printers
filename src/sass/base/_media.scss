@@ -16,6 +16,28 @@
             padding: 18px 22px;
         }
     }
+    .promo{
+        padding-top: 285px;
+        &__img{
+            &_main{
+                width: 280px;
+                top: -195px;
+                left: 0;
+            }
+            &_submain{
+                width: 407px;
+                top: -231px;
+                right: 0;
+            }
+        }
+        &__title{
+            font-size: 79px;
+        }
+        &__btn{
+            margin-top: 54px;
+        }
+    }
+    
 }
 
 @media (max-width:768px){
@@ -28,17 +50,38 @@
             gap: 25px;
         }
     }
+    .promo{
+        padding-top: 285px;
+        &__img{
+            &_main{
+                width: 240px;
+                top: -195px;
+                left: 0;
+            }
+            &_submain{
+                width: 350px;
+                top: -231px;
+                right: 0;
+            }
+        }
+        &__title{
+            font-size: 54px;
+        }
+        &__btn{
+            margin-top: 54px;
+        }
+    }
 }
 
 @media (max-width:576px){
     .container{
         width: 100%;
-        padding: 0 10px;
+        padding: 0 24px;
     }
     .menu{
         margin-top: 27px;
         &__list{
-            z-index: 2;
+            z-index: 5;
             position: absolute;
             top: -27px;
             left: -110%;
@@ -48,12 +91,12 @@
             justify-content: flex-start;
             /* align-items: center; */
             background-color: rgba(0,0,0,.7);
-            padding: 70px 10px 10px 70px;
+            padding: 70px 10px 10px 85px;
             transition: .6s all;
             gap: 20px;
             border: none;
             &_active{
-                z-index: 2;
+                z-index: 5;
                 left: 0;
             }
         }
@@ -95,6 +138,25 @@
                     width: 120%;
                 }
             }
+        }
+    }
+    .promo{
+        padding-top: 313px;
+        &__img{
+            &_main{
+                width: 167px;
+                top: -278px;
+            }
+            &_submain{
+                width: 295px;
+                top: -200px;
+            }
+        }
+        &__title{
+            font-size: 54px;
+        }
+        &__btn{
+            margin-top: 27px;
         }
     }
 }
