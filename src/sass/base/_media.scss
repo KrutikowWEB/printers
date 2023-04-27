@@ -116,7 +116,7 @@
             gap: 25px;
             &_footer{
                 padding: 14px 0 0 0;
-                gap: 10px;
+                gap: 5px;
             }
         }
         &__right{
@@ -303,9 +303,9 @@
             border: none;
         }
         &__deskr{
-            margin-left: 0;
+            margin: 0 auto;
             margin-top: 9px;
-            width: 100%;
+            width: 270px;
         }
         &__form{
             margin-left: 0;
