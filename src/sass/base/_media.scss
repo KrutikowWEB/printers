@@ -118,9 +118,9 @@
             width: 350px;
         }
     }
-    .slick-dots button {  
+/*     .slick-dots button {  
         width: 55px; 
-    }
+    } */
     .slick-prev{
         visibility: hidden;
     }
@@ -364,8 +364,10 @@
     }
     .slick-dots{
         margin-top: 10px;
+        gap: 15px;
     }
     .slick-dots button { 
-        width: 30px;
+        height: 15px; 
+        width: 15px;
     }
 }
