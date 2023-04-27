@@ -83,6 +83,27 @@
             padding: 16px 59px;
         }
     }
+    .menu{
+        &__right{
+            flex-direction: column;
+            gap: 20px;
+        }
+        &__social{
+            &_footer{
+                flex-direction: row;
+                margin-top: 0;
+            }
+        }
+        &__list{
+            &_footer{
+                padding: 14px 0 0 0;
+            }
+        } 
+    }
+    .footer{
+        margin-top: 90px;
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width:768px){
@@ -93,6 +114,13 @@
         &__list{
             padding: 18px;
             gap: 25px;
+            &_footer{
+                padding: 14px 0 0 0;
+                gap: 10px;
+            }
+        }
+        &__right{
+            align-items: center;
         }
     }
     .promo{
@@ -175,9 +203,22 @@
                 z-index: 5;
                 left: 0;
             }
+            &_footer{
+                padding: 10px 10px 10px 85px;
+                top: -54px;
+                height: 24vh;
+            }
         }
         &__link{
             color: white;
+        }
+        &__left{
+            &_deskr{
+                display: none;
+            }
+        }
+        &__social{
+            display: none;
         }
     }
     .hamburger{
@@ -270,5 +311,8 @@
             margin-left: 0;
             margin-top: 18px;
         }
+    }
+    .footer{
+        margin-top: 63px;
     }
 }

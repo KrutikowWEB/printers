@@ -34,7 +34,7 @@ nav{
         list-style-type: none;
         &_footer{
             border: none;
-            padding-top: 14px;
+            padding: 14px 0 27px 0;
         }
     }
     &__link{
@@ -107,6 +107,10 @@ nav{
             font-size: 15px;
             line-height: 18px;
         }
+    }
+    &__right{
+        display: flex;
+        gap: 170px;
     }
 }
 
