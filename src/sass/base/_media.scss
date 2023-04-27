@@ -88,6 +88,9 @@
             padding: 16px 59px;
         }
     }
+    .contact__wrapper::after{
+        display: none;
+    }
     .menu{
         &__right{
             flex-direction: column;
@@ -118,9 +121,6 @@
             width: 350px;
         }
     }
-/*     .slick-dots button {  
-        width: 55px; 
-    } */
     .slick-prev{
         visibility: hidden;
     }
@@ -203,9 +203,6 @@
         &__item{
             width: 300px;
         }
-    }
-    .slick-dots button {  
-        width: 50px; 
     }
 }
 
@@ -367,8 +364,6 @@
     }
     .slick-dots{
         margin-top: 10px;
-    }
-    .slick-dots button { 
-        width: 30px;
+        gap: 10px;
     }
 }
