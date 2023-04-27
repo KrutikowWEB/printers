@@ -43,8 +43,8 @@ window.addEventListener('DOMContentLoaded', () => {
 
 $('.offer__slider').slick({
   dots: true,
-  speed: 600,
-  slidesToShow: 2,
+  speed: 300,
+/*   slidesToShow: 2, */
   slidesToScroll: 1,
   centerMode: true,
   variableWidth: true,
